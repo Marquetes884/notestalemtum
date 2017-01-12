@@ -1,7 +1,8 @@
 package es.telefonica.talentum.noteapp;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -26,7 +27,8 @@ public class NoteListActivity extends AppCompatActivity {
 
         if (id == R.id.menu_main_action_add_note) {
 
-            //TODO: me queda por abrir las pantalla de notas
+            Intent i = new Intent(NoteListActivity.this, NoteDetailActivity.class);
+                    startActivity(i);
             return true;
         }
 
