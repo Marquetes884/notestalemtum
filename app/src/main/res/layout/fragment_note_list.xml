@@ -3,9 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="es.telefonica.talentum.noteapp.NoteListFragment"
-    android:background="#00BC00"
+    android:background="#FA8258"
     >
 
-
-
+    
 </FrameLayout>
