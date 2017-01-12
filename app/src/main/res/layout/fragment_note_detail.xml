@@ -16,7 +16,7 @@
     <EditText
         android:id="@+id/fragment_note_detail_description_text"
         android:hint="Enter note description"
-        android:background="#FFBB00f"
+        android:background="#FFBB00"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="10dp"
